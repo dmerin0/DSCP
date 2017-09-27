@@ -1,0 +1,32 @@
+---
+output: word_document
+---
+#Capstone Project Proposal
+Foundations of Data Science  
+Daniel Merino  
+  
+  
+  
+a) Problem to Solve  
+  The purpose of this project will be to determine how inventory replenishment and pricing should be altered to produce maximum profits for a company's many stores.
+  
+b) Client  
+  The client is a company that owns over 200 gift shops around the United States. The analysis will provide financial advice which will help maximize profits and reduce costs.
+  
+c) Data Used  
+  The data that will be used are sales for each apparel item, in each individual company store (provided by the company), and census population data divided up by age, sex, and zip code (gathered from census.gov website).
+  
+d) Approach to Solving Problem  
+  The approach to solving this problem will comprise of the following steps: 
+  + 1.	Start by grouping products into different categories: children's apparel, men's apparel, and women's apparel. 
+  + 2.	Look at current overall net profits by store and identify which ones are performing greatly, and which are not.
+  + 3.	Match up each store's location (by ZIP code) to the corresponding census data for that ZIP code.
+  + 4.	Then look at each product category and match it up with the populations corresponding to those groups.
+  + 5.	After analyzing sales with population:
+    + a.	If products are **selling well** and there is a **large category population**, increasing retail price or increasing stock on hand might be a good idea.
+    + b.	If products are **not selling well** and there is a **large category population**, decreasing retail price might be a good idea.
+    + c.	If products are **selling well** and there is not a **large category population**, it might be best to make no changes, or at most increase stock on hand.
+    + d.	If products are **not selling well** and there is not a **large category population**, it might be best to decrease retail price or decrease stock on hand.  
+
+e) Deliverables  
+  Presentation will include snippets of sales data and census data to give an idea of the data used. Findings will be represented by graphs depicting proportional net sales and category population sizes. Sales performances will be color coded by great/bad performances to show which ones might be in need of action to improve net profits.
